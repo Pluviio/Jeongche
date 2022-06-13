@@ -11,7 +11,7 @@ const Nav = () => {
 
         <div className="tradition">
           <h1>정체</h1>
-          <img src={flowers} alt="Mugunghwa" />
+          <img className="headerImg" src={flowers} alt="Mugunghwa" />
         </div>
 
         <div className="title">
