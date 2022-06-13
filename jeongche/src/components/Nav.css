@@ -36,3 +36,44 @@ nav {
   color: #FFD700;
 }
 
+.header{
+  display: flex;
+  /* justify-content: left; */
+  font-style: italic;
+  margin-top: 50px;
+  margin-left: 30px;
+  align-items: center;
+  color: #8b0000;
+  /* color: #FFD700 */
+}
+
+.title {
+  display: inline;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+
+.tradition {
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+
+.tradition > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.headerImg{
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+

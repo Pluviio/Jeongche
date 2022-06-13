@@ -1,7 +1,9 @@
 import React from "react";
 import './Home.css'
 import styled from 'styled-components'
-import flowers from '../images/KOCIS_Korea_Mugunghwa_Gwanhwamun_02_(9491022675).jpg'
+import earrings from '../images/YorEarrings.jpg'
+import showcase from '../images/Testing.gif'
+
 
 // const Background = styled.div`
 // background-image: url(${flowers});
@@ -11,11 +13,19 @@ import flowers from '../images/KOCIS_Korea_Mugunghwa_Gwanhwamun_02_(9491022675).
 
 const Home = () => {
   return (
-    <div>
-      <h1>Add more to me</h1>
+    <div className="current">
+
+      <div className="newProduct">
+        <h1>pLaCeHoLdEr</h1>
+        <span class="btn">Shop Now</span>
+      </div>
+
+      <div className="earrings">
+        <img className="showcase" src={showcase} alt="Showcase" />
+        <img src={earrings} alt="Earrings" />
+
+      </div>
     </div>
-
-
   );
 
 };

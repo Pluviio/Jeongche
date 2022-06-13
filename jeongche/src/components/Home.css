@@ -1,40 +1,45 @@
-.header{
+.current {
   display: flex;
-  /* justify-content: left; */
-  font-style: italic;
-  margin-top: 50px;
-  margin-left: 30px;
-  align-items: center;
-  color: #8b0000;
-  /* color: #FFD700 */
-}
-
-.title {
-  display: inline;
-  font-size: 35px;
-  font-weight: bold;
-  margin-left: 30px;
-}
-
-
-.tradition {
-  font-weight: bold;
-  font-size: 35px;
-  position: relative;
-  width: 140px;
-  height: 140px;
-}
-
-.tradition > h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* border: 2px solid red; */
+  font-size: 30px;
+  background-color: #43464B;
   text-align: center;
+  width: 100%;
+  
 }
 
-img {
-  border-radius: 50%;
-  width: 140px;
-  height: 140px;
+.btn {
+  border: 2px solid red;
+}
+
+img{
+  /* border: 2px solid red; */
+  width: 300px;
+  height: 300px;
+}
+
+.earrings {
+  display: inline-block;
+  width: 1000px;
+}
+
+.showcase {
+  width: 720px;
+  height: 1280px;
+}
+
+.earrings > img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+
+
+.newProduct {
+  flex-grow: 3;
+}
+
+.newProduct > h1 {
+  padding-top: 100px;
 }
