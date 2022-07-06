@@ -43,3 +43,28 @@ img{
 .newProduct > h1 {
   padding-top: 100px;
 }
+
+.types {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+} 
+
+.types > img {
+  width: 200px;
+  height: 200px;
+}
+
+.homeText {
+  width: 500px;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
